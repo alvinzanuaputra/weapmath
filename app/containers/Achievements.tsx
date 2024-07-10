@@ -19,9 +19,16 @@ const About = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "/images/Character/char1.gif",
-    "/images/Character/char2.gif",
-    "/images/Character/char3.gif"
+    "/images/Tutorial/1.png",
+    "/images/Tutorial/2.png",
+    "/images/Tutorial/3.png",
+    "/images/Tutorial/4.png",
+    "/images/Tutorial/5.png",
+    "/images/Tutorial/6.png",
+    "/images/Tutorial/7.png",
+    "/images/Tutorial/8.png",
+    "/images/Tutorial/9.png",
+    "/images/Tutorial/10.png",
   ];
 
   const nextImage = () => {
@@ -68,17 +75,17 @@ const About = () => {
             <div className="mt-20">
               <div className="flex justify-center items-center w-full relative" {...handlers}>
                 <button onClick={prevImage} className="absolute left-2 px-2 py-2 bg-gray-300 rounded hover:bg-gray-400 z-50">
-                  <FaCaretLeft size={32} />
+                  <FaCaretLeft size={14} />
                 </button>
-                <div className="flex justify-center items-center overflow-hidden rounded-md shadow-md shadow-blue-500 border border-blue-500 mx-4 lg:mx-10" style={{ width: 'calc(100% - 2rem)', maxWidth: '1000px', height: '500px' }}>
+                <div className="flex justify-center items-center overflow-hidden rounded-md shadow-md shadow-blue-500 border border-blue-500 mx-4 lg:mx-10">
                   <div className="flex transition-transform duration-500 w-full" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
                     {images.map((src, index) => (
-                      <Image key={index} src={src} className="rounded-md w-full h-auto" width={1920} height={1080} alt={`char${index + 1}`} />
+                      <Image key={index} src={src} className="rounded-md w-full h-auto" width={1200} height={540} alt={`char${index + 1}`} />
                     ))}
                   </div>
                 </div>
                 <button onClick={nextImage} className="px-2 py-2 bg-gray-300 rounded hover:bg-gray-400 absolute right-2 z-50">
-                  <FaCaretRight size={32} />
+                  <FaCaretRight size={14} />
                 </button>
               </div>
             </div>
