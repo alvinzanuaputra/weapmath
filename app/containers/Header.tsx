@@ -128,7 +128,7 @@ const Header: React.FC = () => {
           
         </div>
 
-        <a href="#" className="hidden lg:block">
+        <a href="https://play.google.com/store/apps/details?id=com.weapmathku.battle" className="hidden lg:block">
           <button className="bg-green-600 rounded-md px-5 py-1.5 text-white hover:bg-green-400 duration-500">
             MAINKAN GAME
           </button>
