@@ -1,0 +1,18 @@
+.homeLayout {
+  background-image: url('/images/bg-hero.png');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* filter: brightness(0.8); */
+}
+
+
+@media (max-width: 640px) {
+
+  /* Ukuran XS */
+  .homeLayout {
+    background-image: url('/images/bg-hero-xs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
