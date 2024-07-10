@@ -51,10 +51,10 @@ const About = () => {
   });
 
   return (
-    <div className="pb-20 border-t-2 border-black flex mb-4 bg-white px-10 sm:px-40">
+    <div className="pb-60 border-t-2 border-black flex mb-4 bg-white px-1 sm:px-40">
       <div className="flex flex-col items-center justify-center w-full">
         <div className="flex-1 lg:mx-40 mx-10 mt-20 w-full">
-          <div className="text-left" data-aos="fade-right">
+          <div className="text-left px-2" data-aos="fade-right">
             <h1 className="text-4xl text-black hidden lg:flex z-10 font-bold">
               TUTORIAL
             </h1>
