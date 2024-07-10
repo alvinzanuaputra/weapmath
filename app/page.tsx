@@ -6,6 +6,7 @@ import Achievements from "@/app/containers/Achievements";
 import Contact from "@/app/containers/Contact";
 import Head from "next/head";
 import ScrollToTopButton from '@/app/containers/Handletop';
+import Tentang from '@/app/containers/Tentang';
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <main className="max-w-screen overflow-x-hidden bg-black dark:bg-white">
         <Header />
         <HomeLayout />
+        <Tentang />
         <About />
         <Education />
         <Achievements />

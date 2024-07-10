@@ -38,13 +38,13 @@ const HomeLayout = () => {
 
   return (
     <div
-      className={`h-screen flex items-center max-w-screen max-xl:mt-[74px] bg-white max-md:mt-[66px] mt-[80px] ${styles.homeLayout}`}
+      className={`h-screen flex items-center max-w-screen ${styles.homeLayout}`}
       data-aos="fade-down"
       data-aos-duration="1000"
       id="home"
     >
       <div className="m-auto max-md:px-4 text-center justify-center">
-        <div className="">
+        <div className="pt-20">
           <Image
             data-aos="slide-up"
             data-aos-duration="1500"
@@ -57,14 +57,13 @@ const HomeLayout = () => {
           <Image
             data-aos="slide-right"
             data-aos-duration="2000"
-            className="absolute top-64 object-cover h-[70px] w-[250px] lg:w-[400px]"
+            className="absolute top-64 object-cover h-[120px] w-[250px] lg:w-[400px]"
             src={imagesweap2}
             alt="logo2"
           />
         </div>
-
         <button
-          className="w-1/3 lg:w-1/3 h-[70px] object-cover"
+          className="w-1/3 lg:w-1/3 h-[60px] object-cover"
           data-aos="slide-down"
           data-aos-duration="2000"
         >

@@ -3,7 +3,8 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div id="education" className="lg:px-24 py-10 items-center bg-green-900" >
+    <div id="education" className="lg:px-24 py-10 pb-40 items-center bg-green-900" data-aos="slide-left"
+    data-aos-duration="2000">
       <div className="flex justify-center gap-4" data-aos="fade-up">
         <h1 className="text-white text-3xl sm:text-5xl dark:text-gray-400 font-bold lg:flex" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 5)" }}>
           ABOUT

@@ -15,13 +15,13 @@ const About = () => {
   }, []);
 
   return (
-    <div className="flex mt-10 mb-4">
+    <div id="karakter" className="flex mt-10 mb-4">
       <div
         className="flex items-center justify-center h-screen w-screen overflow-hidden bg-center"
         style={{ backgroundImage: "url('/images/bg-kar.jpg')", backgroundSize: "127% 114%" }}
       >
         <div className="flex-1 lg:mx-40 mx-4 mt-6">
-          <div className="text-left" data-aos="fade-right">
+          <div className="text-left" data-aos="slide-right" aos-duration="2000" >
             <h1 className="text-4xl text-black hidden lg:flex z-10 font-bold">
               KARAKTER
             </h1>

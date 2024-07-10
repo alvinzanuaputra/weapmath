@@ -29,7 +29,7 @@ const ScrollToTopButton: React.FC = () => {
     }, []);
 
     return (
-        <div className="fixed right-4 bottom-4 z-50">
+        <div className="fixed right-4 bottom-10 z-50">
             {isVisible && (
                 <button
                     data-aos="slide-up"

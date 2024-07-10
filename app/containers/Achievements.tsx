@@ -5,7 +5,6 @@ import AOS from "aos";
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from 'react-swipeable';
 import "aos/dist/aos.css";
-import { BiCaretRight } from "react-icons/bi";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
 
 const About = () => {
@@ -42,7 +41,7 @@ const About = () => {
   useEffect(() => {
     const interval = setInterval(nextImage, 15000);
     return () => clearInterval(interval);
-  }, []);
+  }, [nextImage]);
 
   const handlers = useSwipeable({
     onSwipedLeft: nextImage,
@@ -51,7 +50,7 @@ const About = () => {
   });
 
   return (
-    <div className="pb-60 border-t-2 border-black flex mb-4 bg-white px-1 sm:px-40">
+    <div id="tutorial" className="pb-60 border-t-2 border-black flex bg-slate-200 px-1 sm:px-40">
       <div className="flex flex-col items-center justify-center w-full">
         <div className="flex-1 lg:mx-40 mx-10 mt-20 w-full">
           <div className="text-left px-2" data-aos="fade-right">

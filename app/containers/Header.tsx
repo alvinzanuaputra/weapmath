@@ -58,16 +58,16 @@ const Header: React.FC = () => {
     <div
       className="fixed top-0 w-full z-50"
     >
-      <div className="px-6 sm:px-16 pt-4 pb-4 flex items-center justify-between bg-black">
-        <div className="flex items-center gap-4">
+      <div className="px-6 sm:px-16 pt-4 py-4 flex items-center justify-between bg-black">
+        <div className="flex items-center gap-4 ">
           <button onClick={() => handleClick("home")}>
             <div className="flex items-center gap-2">
               <Image
                 src="/images/weapmath.png"
-                height={80}
-                width={80}
+                height={50}
+                width={50}
                 alt="WEAPMATH LOGO"
-                className="w-1/4 sm:w-1/3 md:w-5/6 mx-auto "
+                className="border rounded-full border-white"
               />
               <h1 className="md:hidden lg:flex font-bold text-lg lg:text-2xl text-white hover:text-green-500 duration-400 transition-all">
                 WEAPMATH
@@ -91,8 +91,12 @@ const Header: React.FC = () => {
                   onClick={() => handleClick("home")}
                 />
                 <HeaderButton
-                  section="KARAKTER"
+                  section="TENTANG"
                   onClick={() => handleClick("about")}
+                />
+                <HeaderButton
+                  section="KARAKTER"
+                  onClick={() => handleClick("karakter")}
                 />
                 <HeaderButton
                   section="ABOUT US"
@@ -100,9 +104,9 @@ const Header: React.FC = () => {
                 />
                 <HeaderButton
                   section="TUTORIAL"
-                  onClick={() => handleClick("achievements")}
+                  onClick={() => handleClick("tutorial")}
                 />
-                
+
               </ul>
             </div>
           )}
@@ -114,8 +118,12 @@ const Header: React.FC = () => {
             onClick={() => handleClick("home")}
           />
           <HeaderButton
-            section="KARAKTER"
+            section="TENTANG"
             onClick={() => handleClick("about")}
+          />
+          <HeaderButton
+            section="KARAKTER"
+            onClick={() => handleClick("karakter")}
           />
           <HeaderButton
             section="ABOUT US"
@@ -123,9 +131,9 @@ const Header: React.FC = () => {
           />
           <HeaderButton
             section="TUTORIAL"
-            onClick={() => handleClick("achievements")}
+            onClick={() => handleClick("tutorial")}
           />
-          
+
         </div>
 
         <a href="https://play.google.com/store/apps/details?id=com.weapmathku.battle" className="hidden lg:block">
