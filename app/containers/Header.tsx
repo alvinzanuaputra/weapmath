@@ -67,7 +67,7 @@ const Header: React.FC = () => {
                 height={50}
                 width={50}
                 alt="WEAPMATH LOGO"
-                className="border rounded-full border-white"
+                className="cursor-pointer"
               />
               <h1 className="md:hidden lg:flex font-bold text-lg lg:text-2xl text-white hover:text-green-500 duration-400 transition-all">
                 WEAPMATH
@@ -136,7 +136,8 @@ const Header: React.FC = () => {
 
         </div>
 
-        <a href="https://play.google.com/store/apps/details?id=com.weapmathku.battle" className="hidden lg:block">
+        {/* <a href="https://play.google.com/store/apps/details?id=com.weapmathku.battle" className="hidden lg:block"> */}
+        <a href="/comingsoon" className="hidden lg:block">
           <button className="bg-green-600 rounded-md px-5 py-1.5 text-white hover:bg-green-400 duration-500">
             MAINKAN GAME
           </button>

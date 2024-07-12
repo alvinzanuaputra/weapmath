@@ -76,7 +76,7 @@ const About = () => {
                 <button onClick={prevImage} className="absolute left-2 px-2 py-2 bg-gray-300 rounded hover:bg-gray-400 z-50">
                   <FaCaretLeft size={14} />
                 </button>
-                <div className="flex justify-center items-center overflow-hidden rounded-md shadow-md shadow-blue-500 border border-blue-500 mx-4 lg:mx-10">
+                <div className="flex justify-center items-center overflow-hidden rounded-md shadow-lg shadow-green-800 border border-blue-500 mx-4 lg:mx-10">
                   <div className="flex transition-transform duration-500 w-full" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
                     {images.map((src, index) => (
                       <Image key={index} src={src} className="rounded-md w-full h-auto" width={1200} height={540} alt={`char${index + 1}`} />

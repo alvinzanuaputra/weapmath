@@ -1,3 +1,4 @@
+// components/HomeLayout.tsx
 "use client";
 
 import { FiChevronsDown } from "react-icons/fi";
@@ -9,8 +10,10 @@ import Image from "next/image";
 import imagesweap from '@/public/images/WEAPMATHKU-r.png';
 import imagesweap2 from '@/public/images/BATTLE-r.png';
 import imagesweap3 from '@/public/images/get-googleplay.png';
+import Link from "next/link";
+// import pages from "@app/comin";
 
-const HomeLayout = () => {
+const HomeLayout: React.FC = () => {
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -67,13 +70,14 @@ const HomeLayout = () => {
           data-aos="slide-down"
           data-aos-duration="2000"
         >
-          <a href="https://play.google.com/store/apps/details?id=com.weapmathku.battle">
+          <Link href='/comingsoon'>
             <Image
               className="flex items-center justify-center object-cover"
               src={imagesweap3}
               alt="logo3"
             />
-          </a>
+          </Link>
+
           <div
             className="text-white flex mx-auto text-2xl md:text-3xl justify-center mt-5 animate-bounce"
             onClick={handleClick}
@@ -83,7 +87,6 @@ const HomeLayout = () => {
             </div>
           </div>
         </button>
-
 
         <div id="about" className="mt-[150px]"></div>
       </div>

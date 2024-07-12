@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   return (
@@ -30,36 +30,51 @@ const Contact: React.FC = () => {
               <h3 className="text-sm">
                 <p>Supported by : </p><a href="https://www.instagram.com/its_campus/" className="hover:text-white">@its_campus</a> <a href="https://www.instagram.com/dit.belmawadikti/" className="hover:text-white">@dit.belmawadikti </a>
                 <p>
-                Keputih, Sukolilo, Surabayaa 60111, Jawa Timur, Surabaya, Indonesia 6011
+                  Keputih, Sukolilo, Surabaya 60111, Jawa Timur, Surabaya, Indonesia 6011
                 </p>
               </h3>
             </div>
           </div>
-          <a href="https://www.instagram.com/weapmath" className="flex items-center gap-2 mt-4">
-            <button
-              className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
-              <FaInstagram
-                size={20}
-                className="text-white"
-              />
-            </button>
-            <h1 className="font-semibold text-slate-200">Instagram</h1>
-            {/* <a href="https://twitter.com/AlvinZanua"
-                            className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
-                            <FaTwitter
-                                size={20}
-                                className="text-white"
-                            />
-                        </a>
-
-                        <a href="https://www.facebook.com/profile.php?id=100070957315001"
-                            className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
-                            <FaFacebook
-                                size={20}
-                                className="text-white"
-                            />
-                        </a> */}
-          </a>
+          <div className="flex items-center gap-2">
+            <a href="https://www.instagram.com/weapmath" className="flex items-center gap-2 mt-4">
+              <button
+                className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
+                <FaInstagram
+                  size={20}
+                  className="text-white"
+                />
+              </button>
+            </a>
+            <a href=" https://www.tiktok.com/@weapmath.official?_t=8nu8KoZ6nli&_r=1"
+              className="flex items-center gap-2 mt-4">
+              <button
+                className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
+                <FaTiktok
+                  size={20}
+                  className="text-white"
+                />
+              </button>
+            </a>
+            <a href="https://x.com/weapmath?t=pwGEYKJ3DP0KW5qg7Gg2bg&s=09"
+              className="flex items-center gap-2 mt-4">
+              <button
+                className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
+                <FaTwitter
+                  size={20}
+                  className="text-white"
+                />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/@Weapmath" className="flex items-center gap-2 mt-4">
+              <button
+                className="rounded-full p-2 bg-neutral-700 flex items-center justify-center cursor-pointer hover:opacity-75 transition">
+                <FaYoutube
+                  size={20}
+                  className="text-white"
+                />
+              </button>
+            </a>
+          </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-t-2 py-4 border-gray-600">
           <div className="flex justify-between">

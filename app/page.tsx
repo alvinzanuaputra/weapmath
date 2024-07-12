@@ -5,12 +5,13 @@ import Education from "@/app/containers/Education";
 import Achievements from "@/app/containers/Achievements";
 import Contact from "@/app/containers/Contact";
 import Head from "next/head";
-import ScrollToTopButton from '@/app/containers/Handletop';
+import Downloadd from "@/app/containers/Downloadku"
 import Tentang from '@/app/containers/Tentang';
+import React from "react";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <link
           rel="apple-touch-icon"
@@ -46,8 +47,8 @@ export default function Home() {
         <Education />
         <Achievements />
         <Contact />
-        <ScrollToTopButton />
+        <Downloadd/>
       </main>
-    </>
+    </div>
   );
 }
