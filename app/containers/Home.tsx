@@ -1,4 +1,3 @@
-// components/HomeLayout.tsx
 "use client";
 
 import { FiChevronsDown } from "react-icons/fi";
@@ -11,7 +10,6 @@ import imagesweap from '@/public/images/WEAPMATHKU-r.png';
 import imagesweap2 from '@/public/images/BATTLE-r.png';
 import imagesweap3 from '@/public/images/get-googleplay.png';
 import Link from "next/link";
-// import pages from "@app/comin";
 
 const HomeLayout: React.FC = () => {
   useEffect(() => {
@@ -20,6 +18,23 @@ const HomeLayout: React.FC = () => {
       once: false,
     });
   }, []);
+  const handleCMS = () => {
+    const element = document.getElementById("cms");
+    if (element) {
+      let offset;
+      if (window.innerWidth < 768) {
+        offset = element.getBoundingClientRect().top + window.scrollY - 66;
+      } else if (window.innerWidth < 1280) {
+        offset = element.getBoundingClientRect().top + window.scrollY - 74;
+      } else {
+        offset = element.getBoundingClientRect().top + window.scrollY - 90;
+      }
+      window.scrollTo({
+        top: offset,
+        behavior: "smooth",
+      });
+    }
+  };
 
   const handleClick = () => {
     const element = document.getElementById("about");
@@ -70,7 +85,7 @@ const HomeLayout: React.FC = () => {
           data-aos="slide-down"
           data-aos-duration="2000"
         >
-          <Link href='/comingsoon'>
+          <Link href="https://play.google.com/apps/internaltest/4701014834235069750">
             <Image
               className="flex items-center justify-center object-cover"
               src={imagesweap3}

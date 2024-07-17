@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import AOS from "aos";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { useSwipeable } from 'react-swipeable';
 import "aos/dist/aos.css";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
@@ -30,13 +30,13 @@ const About = () => {
     "/images/Tutorial/10.png",
   ];
 
-  const nextImage = () => {
+  const nextImage = useCallback(() => {
     setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-  };
+  }, [images.length]);
 
-  const prevImage = () => {
+  const prevImage = useCallback(() => {
     setCurrentImage((prevImage) => (prevImage - 1 + images.length) % images.length);
-  };
+  }, [images.length]);
 
   useEffect(() => {
     const interval = setInterval(nextImage, 15000);

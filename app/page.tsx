@@ -8,6 +8,7 @@ import Head from "next/head";
 import Downloadd from "@/app/containers/Downloadku"
 import Tentang from '@/app/containers/Tentang';
 import React from "react";
+import ComingSoon from "@/app/containers/comingsoon";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
         <Achievements />
         <Contact />
         <Downloadd/>
+        {/* <ComingSoon /> */}
       </main>
     </div>
   );
