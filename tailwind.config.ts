@@ -11,11 +11,15 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      margin: {
+        '124': '28rem', 
+        '120': '17rem',
       },
     },
   },
   plugins: [],
 };
+
 export default config;

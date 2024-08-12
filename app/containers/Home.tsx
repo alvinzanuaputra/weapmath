@@ -85,7 +85,7 @@ const HomeLayout: React.FC = () => {
           data-aos="slide-down"
           data-aos-duration="2000"
         >
-          <Link href="https://play.google.com/apps/internaltest/4701014834235069750">
+          <Link href="https://play.google.com/store/apps/details?id=com.weapmath.weapmath">
             <Image
               className="flex items-center justify-center object-cover"
               src={imagesweap3}

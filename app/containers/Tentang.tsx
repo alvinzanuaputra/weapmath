@@ -14,7 +14,7 @@ const Tentang = () => {
   }, []);
 
   return (
-    <div className="flex justify-center mx-auto mb-14 dark:bg-white py-20">
+    <div className="flex justify-center mx-auto mb-14 dark:bg-white py-40">
       <div className="lg:w-1/2">
         <div
           className="relative text-left"

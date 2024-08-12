@@ -83,8 +83,9 @@ const Contact: React.FC = () => {
               <li>Security & privacy</li>
               <li>Privacy</li>
               <li>Cookies</li>
-              <li>About advertisement</li>
+              <li>Advertisement</li>
               <li>Accessibility</li>
+              <a href="https://drive.google.com/drive/folders/1VcQAQcVGkUKnS0r8Og6MoHQWAWFQyDYz?usp=sharing"><li>Others</li></a>
             </ul>
           </div>
           <p className="text-xs md:text-sm font-semibold flex items-center md:justify-end">Copyright © Weapmath. Trademarks belong to their respective owners. All rights reserved.</p>

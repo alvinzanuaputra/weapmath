@@ -16,9 +16,10 @@ const Education = () => {
         >
           MEET OUR TEAM
         </h1>
+        <br/>
       </div>
 
-      <div className="bg-white p-4 text-center mx-40 sm:mx-124">
+      <div className="bg-white p-4 text-center mx-28 sm:mx-124">
         <Image
           src="/images/anggota/syifaul.jpg"
           height={300}
@@ -34,7 +35,7 @@ const Education = () => {
         <p className="text-[8px] sm:text-sm lg:text-lg">Co-lecturer</p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 mx-16 lg:mx-60 mt-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 mx-6 lg:mx-60 mt-8">
         <div className="bg-white p-4 text-center">
           <Image
             src="/images/anggota/daffa.jpg"
@@ -118,8 +119,8 @@ const Education = () => {
         </div>
       </div>
 
-      <div className="flex sm:hidden lg:hidden mt-8">
-        <div className="bg-white p-4 text-center mx-40 sm:mx-124">
+      <div className="flex justify-center sm:hidden mx-28 lg:hidden mt-8">
+        <div className="bg-white p-4 text-center ">
           <Image
             src="/images/anggota/thifa.jpg"
             height={300}
@@ -134,6 +135,7 @@ const Education = () => {
           </h2>
           <p className="text-[8px] sm:text-sm lg:text-lg">Chief Marketing Officer</p>
         </div>
+       
       </div>
       <div id="achievements"></div>
     </div>
