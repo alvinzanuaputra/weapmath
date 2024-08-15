@@ -43,93 +43,93 @@ const About = () => {
               <div className="mx-6 sm:mx-1 grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-1">
                 <div className="">
                   <Image src="/images/Character/char1.gif" className="shadow-md shadow-black rounded-md border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char1" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">04/05/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Utara </h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Utara (Male)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char2.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char2" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">07/05/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Jawa Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Jawa Barat (Male)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char3.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">27/06/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat (Male)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char4.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">11/07/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Palembang (Male)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char5.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">18/07/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Palembang (Female)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char6.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">26/07/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Betawi (Male)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char7.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">02/08/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Betawi (Female)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char8.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">06/08/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sunda (Male)</h1>
                 </div>
                 <div className="">
                   <Image src="/images/Character/char9.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
-                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">12/08/2024</p>
                   <div className="flex items-center gap-1">
                   
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
                   </div>
-                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sunda (Female)</h1>
                 </div>
               </div>
             </div>
