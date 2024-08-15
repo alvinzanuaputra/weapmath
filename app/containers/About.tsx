@@ -9,19 +9,19 @@ import "aos/dist/aos.css";
 const About = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 1000,
       once: false,
     });
   }, []);
 
   return (
-    <div id="karakter" className="flex mt-10 mb-4">
+    <div id="karakter" className="flex my-10 mb-4">
       <div
-        className="flex items-center justify-center h-screen w-screen overflow-hidden bg-center"
-        style={{ backgroundImage: "url('/images/bg-kar.jpg')", backgroundSize: "127% 114%" }}
+        className="flex items-center justify-center py-8 w-screen overflow-hidden bg-center bg-white pb-20"
+        // style={{ backgroundImage: "url('/images/bg-kar.jpg')", backgroundSize: "127% 114%" }}
       >
         <div className="flex-1 lg:mx-40 mx-4 mt-6">
-          <div className="text-left" data-aos="slide-right" aos-duration="2000" >
+          <div className="text-left" data-aos="slide-right" aos-duration="3000" >
             <h1 className="text-4xl text-black hidden lg:flex z-10 font-bold">
               KARAKTER
             </h1>
@@ -37,7 +37,7 @@ const About = () => {
               WEAPMATH
             </h1>
             <div className="mt-4 border-2 border-green-500 w-1/3 lg:hidden flex"></div>
-            <div className="border-2 border-green-500 w-1/6 lg:hidden flex">
+            <div className="border-2 border-green-500 w-1/6 lg:hidden mb-10 flex">
             </div>
             <div className="">
               <div className="mx-6 sm:mx-1 grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-1">
@@ -63,6 +63,66 @@ const About = () => {
                 </div>
                 <div className="">
                   <Image src="/images/Character/char3.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <div className="flex items-center gap-1">
+                  
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
+                  </div>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                </div>
+                <div className="">
+                  <Image src="/images/Character/char4.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <div className="flex items-center gap-1">
+                  
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
+                  </div>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                </div>
+                <div className="">
+                  <Image src="/images/Character/char5.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <div className="flex items-center gap-1">
+                  
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
+                  </div>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                </div>
+                <div className="">
+                  <Image src="/images/Character/char6.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <div className="flex items-center gap-1">
+                  
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
+                  </div>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                </div>
+                <div className="">
+                  <Image src="/images/Character/char7.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <div className="flex items-center gap-1">
+                  
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
+                  </div>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                </div>
+                <div className="">
+                  <Image src="/images/Character/char8.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
+                  <div className="flex items-center gap-1">
+                  
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">PATCH</p>
+                  <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">NOTE</p>
+                  </div>
+                  <h1 className="font-semibold text-sm lg:text-lg">Sumatra Barat</h1>
+                </div>
+                <div className="">
+                  <Image src="/images/Character/char9.gif" className="rounded-md shadow-md shadow-black border border-black hover:scale-105 duration-500 transition-all my-2" width={500} height={500} alt="char3" />
                   <p className="text-[8px] text-black sm:text-xs font-semibold text-sm lg:text-lg">19/07/2024</p>
                   <div className="flex items-center gap-1">
                   

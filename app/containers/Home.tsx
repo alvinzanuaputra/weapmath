@@ -94,7 +94,7 @@ const HomeLayout: React.FC = () => {
           </Link>
 
           <div
-            className="text-white flex mx-auto text-2xl md:text-3xl justify-center mt-5 animate-bounce"
+            className="text-white flex mx-auto text-2xl md:text-3xl justify-center mt-5"
             onClick={handleClick}
           >
             <div>
